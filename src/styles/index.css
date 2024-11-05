@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* General styles */
+body {
+  background-color: #171d32;
+  color: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Apply consistent styles for headings and paragraphs */
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+}
+
+p {
+  color: #d3d3d3;
+}
+
+/* smooth scrolling for the entire app */
+html {
+  scroll-behavior: smooth;
+}
